@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #161616;
+}
+
+*{
+    background-color: #161616;
+}
+
+.visually-hidden {
+    background-color: #D73953;
+}
+
+.section-tagline {
+    background-color: #D73953;
+}
