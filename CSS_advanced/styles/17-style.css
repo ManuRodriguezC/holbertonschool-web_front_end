@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: var(--section-body-padding);
 }
 
-.section.footer {
+.section-footer {
     padding: var(--section-footer-padding);
     align-content: var(--section-footer-align);
 }
