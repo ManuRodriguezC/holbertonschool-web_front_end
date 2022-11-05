@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ul.row {
     margin: 0;
-    padding: none;
+    padding: 0;
     list-style: none;
 }
 
@@ -185,6 +185,6 @@ ul.row {
     color: var(--text-color);
 }
 
-footer.ul {
+.footer ul {
     text-align: right;
 }
