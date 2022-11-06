@@ -323,7 +323,7 @@ ul.row {
     overflow: hidden;
 }
 
-.card-work .car-image {
+.card-work .card-image {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -365,6 +365,6 @@ ul.row {
     content: "";
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
     opacity: 1;
 }
