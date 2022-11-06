@@ -53,7 +53,7 @@
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
     --transition-duration: .3s;
-    --transition-cubic-bezier: cubic-bezier(0.17 0.67 0 1.01);
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 *, *::after, *::before {
@@ -392,8 +392,9 @@ ul.row {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-quote {
+.card-work:hover .card-outer {
     transform: scale(0.95);
 }
