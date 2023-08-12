@@ -2,7 +2,7 @@ $primary-color: #FF0000;
 $second-color: #00FF00;
 button {
     color: $primary-color;
-    :hover {
+    button:hover {
         color: $second-color;
     }
 }

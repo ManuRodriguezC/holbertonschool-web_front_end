@@ -3,10 +3,10 @@ $size2: 16px;
 $size3: 12px;
 body {
     font-size: $size1;
-    h1 {
-        font-size: $size2;
-        .smaller {
-            color: $size3;
-        }
+    h1{
+        font-size: $size2;  
+    }
+    h1.smaller {
+        color: $size3;
     }
 }
