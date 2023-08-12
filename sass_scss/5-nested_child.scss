@@ -1,0 +1,8 @@
+$primary-color: #3D3D3D;
+$second-color: #FF0000;
+body {
+    color: $primary-color;
+    > .red:first-child {
+        color: $second-color;
+    }
+}

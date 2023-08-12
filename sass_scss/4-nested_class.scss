@@ -1,0 +1,8 @@
+$primary-color: #3D3D3D;
+$second-color: #6D6D6D;
+body {
+    color: $primary-color;
+    .red {
+        color: $second-color;
+    }
+}

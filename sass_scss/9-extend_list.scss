@@ -1,0 +1,23 @@
+$primary-color: #00FF00;
+$second-color: #FF0000;
+$size: 12px;
+%primary-color {
+    color: $primary-color;
+}
+%second-color {
+    color: $second-color;
+}
+%size {
+    font-size: $size;
+}
+.info {
+    @extend %size;
+}
+.success {
+    @extend %size;
+    @extend %primary-color;
+}
+.warning {
+    @extend %second-color;
+    @extend %size;
+}

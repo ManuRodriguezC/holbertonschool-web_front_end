@@ -1,0 +1,14 @@
+$size1 : 10px;
+$size2: 15px;
+@mixin theme($theme: $size1) {
+    margin-left: $theme;
+    margin-right: $theme;
+}
+
+body {
+    @include theme;
+}
+
+div {
+    @include theme($theme: $size2)
+}
