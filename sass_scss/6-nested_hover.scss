@@ -1,8 +1,8 @@
 $primary-color: #FF0000;
 $second-color: #00FF00;
 button {
-    color: $primary-color;
-    button:hover {
-        color: $second-color;
-    }
+    color: $primary-color;   
+}
+button:hover {
+    color: $second-color;
 }
