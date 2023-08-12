@@ -6,7 +6,7 @@ body {
     h1{
         font-size: $size2; 
         &.smaller {
-            color: $size3;
+            font-size: $size3;
         } 
     }  
 }
